@@ -1,11 +1,12 @@
 //const inputNome = document.getElementById("inputNome");
-const btInserir = document.getElementById("btInserir");
-const inputNome = document. getElementById("inputNome");
-const nome = document.getElementById("inputNome")
 function inserir() {
-    const nome = (inputNome.value);
-    alert("Olá" + nome)
-    console.log(nome)
+    const btInserir = document.getElementById("btInserir");
+    const inputNome = document. getElementById("inputNome");
+   // const inputSobre = document.getElementById("inputSobre");
+    //const nome = document.getElementById("inputNome")
+    //const nome = (inputNome.value);
+    alert("Olá " + inputNome.value)
+    //console.log(nome)
 }
 
 
